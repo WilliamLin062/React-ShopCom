@@ -1,0 +1,21 @@
+.timer-container {
+  display: flex;
+  height: 1rem;
+  width: 100%;
+}
+
+.timer-number-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  width: 20%;
+  background-color: black;
+  border-radius: 2px;
+}
+.timer-number {
+  color: #fff;
+  transition: all ease-in-out 1s;
+}
+.timer-number-text {
+  font-size: medium;
+}

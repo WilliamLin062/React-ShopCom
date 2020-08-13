@@ -1,0 +1,100 @@
+.ImageCarusel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.OnSale {
+  text-decoration: line-through;
+  font-size: small;
+  color: gray;
+  font-weight: normal;
+}
+.ImageCarusel-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.ImageCarusel-container-warrpar {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.ImageCarusel-list-item-container {
+  height: 100%;
+}
+.ImageCarusel-container {
+  width: 625%;
+  height: 100%;
+  transition: all ease-in-out 0.5s;
+}
+.ImageCarusel-list {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  height: 100%;
+}
+.ImageCarusel-list-item {
+  position: relative;
+  height: 100%;
+  width: 25%;
+
+  background-color: white;
+}
+.ImageCarusel-list-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.ImageCarusel-link {
+  width: 100%;
+  height: 100%;
+}
+.ImageCarusel-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.ImageCarusel-item-text {
+  color: rgb(255, 102, 0);
+  text-align: center;
+  font-weight: 700;
+}
+.ImageCarusel-item-image {
+  width: 90%;
+  height: 70%;
+  background-size: cover;
+}
+.ImageCarusel-item-bar {
+  width: 80%;
+  height: 16px;
+}
+.ImageCarusel-list-item-tag {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(248, 70, 0);
+  font-weight: 700;
+  width: 60px;
+  height: 50px;
+  z-index: 10;
+  right: 0;
+  background-color: rgba(255, 212, 36, 0.9);
+}
+.ImageCarusel-list-item-tag::after {
+  content: '';
+  width: 0;
+  height: 0;
+  left: 0;
+  bottom: -4px;
+  position: absolute;
+  border-color: transparent rgba(255, 212, 36, 0.9);
+  border-style: solid;
+  bottom: -10px;
+  border-width: 0 30px 10px;
+}

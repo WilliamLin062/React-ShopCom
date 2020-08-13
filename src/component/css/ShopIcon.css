@@ -1,0 +1,14 @@
+.icon-shopee-logo {
+  width: 11.875rem;
+  height: 4rem;
+  fill: #fff;
+}
+.header-with-search__shopee-logo.icon-shopee-logo {
+  display: block;
+  width: 162px;
+  height: 50px;
+}
+.header-with-search-wrapper .header-with-search__shopee-logo {
+  width: 162px;
+  height: 50px;
+}

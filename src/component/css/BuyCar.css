@@ -1,0 +1,12 @@
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  fill: #fff;
+  position: relative;
+  font-size: 1.0625rem;
+  margin-right: 0.625rem;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}

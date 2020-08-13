@@ -1,0 +1,93 @@
+.SectionBanner {
+  display: flex;
+  flex-direction: column;
+  height: 383px;
+  width: 100%;
+  align-items: center;
+  padding-top: 30px;
+  margin-top: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.125rem;
+  overflow: hidden;
+  color: #000;
+}
+
+.sectioBnanner-slideshowContainer {
+  display: block;
+  background-color: red;
+  height: 235px;
+  width: 840px;
+}
+.sectioBnanner-slideshow-subBanner {
+  height: 49%;
+  width: 350px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.sectioBnanner-slideshow-subBanner-bg1 {
+  background-size: cover;
+  background-image: url(../../asset/54addd75ff93611021e6377d22b77007_xhdpi.jpg);
+  background-position: bottom;
+}
+.sectioBnanner-slideshow-subBanner-bg2 {
+  background-size: cover;
+  background-image: url(../../asset/a88a8eb66f3e3c1af90e0dc360b134d8_xhdpi.jpg);
+  background-position: bottom;
+}
+.sectioBnanner-slideshow-subBanner:first-child {
+  height: 50%;
+  width: 350px;
+  margin-left: 8px;
+  margin-bottom: 3px;
+}
+.sectioBnanner-slideshow-subBanneContainer {
+  display: block;
+}
+.sectioBnanner-container {
+  display: inline-flex;
+  flex-direction: row;
+}
+.sectioBnanner-bottomlink {
+  text-align: center;
+  width: 1200px;
+  height: 100%;
+}
+.sectioBnanner-bottomlinkContainer {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin-top: 10px;
+}
+.sectioBnanner-bottomlink {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+}
+.sectioBnanner-bottomlink > a {
+  display: flex;
+  width: 10%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.sectioBnanner-bottomlink-imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 10px;
+}
+.sectioBnanner-bottomlink-img {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-image: url(../../asset/no-image-available-icon-vector-illustration-flat-design-140476186.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sectioBnanner-bottomlink-imgContainer > span {
+  font-size: 0.665rem;
+  color: black;
+}

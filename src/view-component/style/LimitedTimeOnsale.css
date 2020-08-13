@@ -1,0 +1,89 @@
+.OnSaleList-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.OnSaleList-container-warrpar {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.OnSaleList-list-item-container {
+  height: 100%;
+}
+.OnSaleList-container {
+  width: 416.6675%;
+  height: 100%;
+  transition: all ease-in-out 0.5s;
+}
+.OnSaleList-list {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  height: 100%;
+}
+.OnSaleList-list-item {
+  position: relative;
+  height: 100%;
+  width: 16.6667%;
+  border: solid 1px #f5f5f5;
+  background-color: white;
+}
+.OnSaleList-list-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.OnSaleList-link {
+  width: 100%;
+  height: 100%;
+}
+.OnSaleList-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.OnSaleList-item-text {
+  color: rgb(255, 102, 0);
+  text-align: center;
+  font-weight: 700;
+}
+.OnSaleList-item-image {
+  width: 90%;
+  height: 70%;
+  background-size: cover;
+}
+.OnSaleList-item-bar {
+  width: 80%;
+  height: 16px;
+}
+.OnSaleList-list-item-tag {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(248, 70, 0);
+  font-weight: 700;
+  width: 60px;
+  height: 50px;
+  z-index: 10;
+  right: 0;
+  background-color: rgba(255, 212, 36, 0.9);
+}
+.OnSaleList-list-item-tag::after {
+  content: '';
+  width: 0;
+  height: 0;
+  left: 0;
+  bottom: -4px;
+  position: absolute;
+  border-color: transparent rgba(255, 212, 36, 0.9);
+  border-style: solid;
+  bottom: -10px;
+  border-width: 0 30px 10px;
+}
