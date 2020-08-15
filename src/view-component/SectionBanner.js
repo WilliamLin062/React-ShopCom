@@ -1,6 +1,7 @@
 import React from 'react'
 import './style/SectionBanner.css'
 import Slideshow from '../component/Slideshow'
+import AutoCarusel from '../component/AutoCarusel'
 export default class SectionBanner extends React.Component {
   constructor(props) {
     super(props)
@@ -12,7 +13,9 @@ export default class SectionBanner extends React.Component {
     return (
       <div className="SectionBanner">
         <div className="sectioBnanner-container">
-          <div className="sectioBnanner-slideshowContainer"></div>
+          <div className="sectioBnanner-slideshowContainer">
+            <AutoCarusel></AutoCarusel>
+          </div>
           <div className="sectioBnanner-slideshow-subBanneContainer">
             <div className="sectioBnanner-slideshow-subBanner sectioBnanner-slideshow-subBanner-bg1"></div>
             <div className="sectioBnanner-slideshow-subBanner sectioBnanner-slideshow-subBanner-bg2"></div>
