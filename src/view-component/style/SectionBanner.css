@@ -27,12 +27,12 @@
 }
 .sectioBnanner-slideshow-subBanner-bg1 {
   background-size: cover;
-  background-image: url(../../asset/54addd75ff93611021e6377d22b77007_xhdpi.jpg);
+  background-image: url(https://cf.shopee.tw/file/0362d112985ec4da0a0114df0eef04da_xhdpi);
   background-position: bottom;
 }
 .sectioBnanner-slideshow-subBanner-bg2 {
   background-size: cover;
-  background-image: url(../../asset/a88a8eb66f3e3c1af90e0dc360b134d8_xhdpi.jpg);
+  background-image: url(https://cf.shopee.tw/file/a53eaf0a2c2f121cbc9aa6d42a1c120c_xhdpi);
   background-position: bottom;
 }
 .sectioBnanner-slideshow-subBanner:first-child {
@@ -83,7 +83,7 @@
   height: 50px;
   width: 50px;
   text-align: center;
-  background-image: url(../../asset/no-image-available-icon-vector-illustration-flat-design-140476186.jpg);
+  background-image: url(https://via.placeholder.com/200);
   background-repeat: no-repeat;
   background-size: cover;
 }
